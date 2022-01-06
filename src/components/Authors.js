@@ -7,8 +7,6 @@ const Authors = (props) => {
   }
 
   const authors = props.authors
-  const uniqueAuthors = [...new Set(authors)]
-  console.log(uniqueAuthors)
 
   return (
     <div>
